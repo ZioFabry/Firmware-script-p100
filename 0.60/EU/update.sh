@@ -10,7 +10,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-BASEURL="https://pisces-firmware.sidcloud.cn"
+BASEURL="https://raw.githubusercontent.com/ZioFabry/Firmware-script-p100/v0.6.0fix"
 FIRMWARE_VERSION="0.60"
 GATEWAY_RS_PATH="/etc/helium_gateway"
 GATEWAY_REGION="EU"
