@@ -1,6 +1,11 @@
 [Unit]
 Description=Helium Gateway
 
+[Install]
+WantedBy=multi-user.target
+
 [Service]
-Type=forking
+Type=simple
 ExecStart=/etc/helium_gateway/helium_gateway server
+Restart=always
+RestartSec=30
