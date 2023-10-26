@@ -15,7 +15,7 @@ FIRMWARE_VERSION="0.60"
 GATEWAY_RS_PATH="/etc/helium_gateway"
 GATEWAY_REGION="EU"
 GATEWAY_URL="https://github.com/helium/gateway-rs/releases/download"
-GATEWAY_VER="1.2.1"
+GATEWAY_VER="1.3.0"
 GATEWAY_TAR="helium-gateway-${GATEWAY_VER}-armv7-unknown-linux-musleabihf.tar.gz"
 
 echo "Firmware update $FIRMWARE_VERSION"
